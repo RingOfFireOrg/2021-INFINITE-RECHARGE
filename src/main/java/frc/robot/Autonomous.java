@@ -154,9 +154,7 @@ public class Autonomous {
 
     private void switchStep() {
         autonomousStep ++;
-        transitionTime = autonomousTimer.get();
-        autonomousStep ++;
-        
+        transitionTime = autonomousTimer.get();      
     }
 
     // public void getAutonomousCommand() {
